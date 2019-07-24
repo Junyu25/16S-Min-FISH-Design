@@ -50,12 +50,6 @@ def RandomProbe(probe, MutateNum):
 #RandomProbe(mutable_probe, MutateNum)
 
 #Define output frame
-data = {"MutNum":[],
-        "MatchNum":[],
-        "MutPosition":[],
-        "MutProbe":[]}
-frame = pd.DataFrame(data)
-#frame
 f = pd.DataFrame()
 
 #Match Probe to rRNA
